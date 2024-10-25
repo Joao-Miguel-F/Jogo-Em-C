@@ -25,26 +25,21 @@ Maze Clicker é um jogo inspirado no clássico jogo da cobrinha. Nele, o jogador
    cd maze-clicker
    ```
 
-2. **Instale as dependências**
-   Certifique-se de que você tem o [Node.js](https://nodejs.org/) instalado. Depois, instale as dependências necessárias:
-   ```bash
-   npm install
-   ```
+2. **Instale o GCC**
+   Certifique-se de que você tem o [GCC](https://gcc.gnu.org/) instalado para compilar o código em C.
 
 3. **Compile o projeto**
-   Para compilar o projeto, utilize o seguinte comando:
+   Para compilar o jogo, utilize o seguinte comando:
    ```bash
-   npm run build
+   gcc -o maze_clicker main.c
    ```
+   (Substitua `main.c` pelo nome do seu arquivo principal, se necessário.)
 
 4. **Execute o jogo**
    Para rodar o jogo, use:
    ```bash
-   npm start
+   ./maze_clicker
    ```
-
-5. **Acesse o jogo**
-   Abra o seu navegador e acesse `http://localhost:3000` para começar a jogar.
 
 ## Contribuições
 Sinta-se à vontade para contribuir com o projeto, abrir issues ou enviar pull requests!
